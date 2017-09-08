@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imgdetail001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.planet.funnyeve.phtospot.Sub00_02Activity">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imgdetail001"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/image_06_4x3_height"
+                tools:layout_editor_absoluteX="-3dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Translate"
+                android:textColor="#fa6d01" />
+
+            <TextView
+                android:id="@+id/editText2"
+                android:layout_width="361dp"
+                android:layout_height="100dp"
+                android:layout_gravity="top"
+                android:gravity="top|left"
+                android:inputType="textPersonName"
+                android:text="In the past, there were serveral streams of water flowing alongthe hill country of northern hills that stretched south from the north ridge."
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imgdetail002"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/image_03_16x9_height"
+                tools:layout_editor_absoluteX="-3dp"
+                tools:layout_editor_absoluteY="8dp" />
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

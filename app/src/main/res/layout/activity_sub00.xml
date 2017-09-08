@@ -28,13 +28,13 @@
             android:weightSum="1">
 
 
-            <include layout="@layout/activity_maps" />
+            <!--include layout="@layout/activity_maps" /-->
             <!--fragment
                     android:id="@+id/map"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     class="com.google.android.gms.maps.MapFragment" >
-                </fragment>
+                </fragment-->
                 <fragment
                     xmlns:android="http://schemas.android.com/apk/res/android"
                     xmlns:map="http://schemas.android.com/apk/res-auto"
@@ -43,7 +43,7 @@
                     android:name="com.google.android.gms.maps.SupportMapFragment"
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
-                    tools:context="com.planet.funnyeve.phtospot.MapsActivity" /-->
+                    tools:context="com.planet.funnyeve.phtospot.MapsActivity" />
 
 
             <LinearLayout
@@ -63,35 +63,35 @@
 
 
                         <ImageView
-                            android:id="@+id/imageView2"
+                            android:id="@+id/subphoto01"
                             android:layout_width="175dp"
                             android:layout_height="130dp"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/image_01_4x3_width" />
 
                         <ImageView
-                            android:id="@+id/imageView22"
+                            android:id="@+id/subphoto02"
                             android:layout_width="175dp"
                             android:layout_height="130dp"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/image_05_4x3_width" />
 
                         <ImageView
-                            android:id="@+id/imageView222"
+                            android:id="@+id/subphoto03"
                             android:layout_width="175dp"
                             android:layout_height="130dp"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/image_07_4x3_width" />
 
                         <ImageView
-                            android:id="@+id/imageView2"
+                            android:id="@+id/subphoto04"
                             android:layout_width="175dp"
                             android:layout_height="130dp"
                             android:layout_weight="1"
                             app:srcCompat="@drawable/image_01_4x3_width" />
 
                         <ImageView
-                            android:id="@+id/imageView22"
+                            android:id="@+id/subphoto05"
                             android:layout_width="175dp"
                             android:layout_height="130dp"
                             android:layout_weight="1"

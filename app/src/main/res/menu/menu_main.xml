@@ -8,6 +8,7 @@
     <item
         android:id="@+id/menu_select"
         android:icon="@drawable/ic_map_black_24dp"
+        android:textColor="#555555"
         app:showAsAction="always" />
 
 </menu>

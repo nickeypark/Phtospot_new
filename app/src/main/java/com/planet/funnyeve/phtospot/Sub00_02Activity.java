@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 
-public class Sub03Activity extends AppCompatActivity {
+public class Sub00_02Activity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -16,6 +16,8 @@ public class Sub03Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sub03);
+        setContentView(R.layout.activity_sub00_02);
+
+
     }
 }

@@ -5,6 +5,8 @@
     <item
         android:id="@+id/menu_select"
         android:icon="@drawable/ic_menu_share"
+        android:title="포토스팟 상세화면"
+        android:textColor="#555555"
         app:showAsAction="always" />
 
 </menu>
